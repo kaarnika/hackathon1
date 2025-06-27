@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page Generator</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🧠 Personalized Landing Page</h1>
+      <form method="POST">
+        <input type="text" name="city" placeholder="City" required />
+        <select name="gender">
+          <option>male</option>
+          <option>female</option>
+        </select>
+        <select name="age">
+          <option>18-24</option>
+          <option>25-34</option>
+          <option>35-44</option>
+          <option>45-54</option>
+          <option>55-64</option>
+          <option>above 64</option>
+        </select>
+        <select name="income">
+          <option>below 50%</option>
+          <option>11-20%</option>
+          <option>Top 10%</option>
+        </select>
+        <select name="source">
+          <option>Facebook</option>
+          <option>Instagram</option>
+          <option>(direct)</option>
+          <option>Email</option>
+        </select>
+        <select name="device">
+          <option>mobile</option>
+          <option>desktop</option>
+        </select>
+        <button type="submit">Generate</button>
+      </form>
+    </div>
+  </body>
+</html>

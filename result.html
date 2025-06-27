@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>🖼️ Hero Banner</h2>
+      <p>{{ page.hero_banner }}</p>
+
+      <h2>🛒 Product Carousels</h2>
+      <ul>
+        {% for item in page.product_carousels %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+
+      <h2>🚀 Call-To-Action</h2>
+      <p>{{ page.cta_module }}</p>
+
+      <a href="/">🔙 Back</a>
+    </div>
+  </body>
+</html>
